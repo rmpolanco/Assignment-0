@@ -1,6 +1,9 @@
 class MySolution {
   countDownSum(num) {
-    // Insert code here;
+    if(num < 2)return num;
+    let res = 0;
+    res = num + this.countDownSum(num-1);
+    return res;
   }
 }
 
