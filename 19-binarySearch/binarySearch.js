@@ -1,5 +1,3 @@
-const { truncateThreshold } = require("chai/lib/chai/config");
-
 class MySolution {
   constructor() {
     this.flag = false; // this is optional to use;
